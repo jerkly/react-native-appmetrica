@@ -1,4 +1,4 @@
-# @gennadysx/react-native-appmetrica
+# @jerkly/react-native-appmetrica
 React Native bridge to the [AppMetrica](https://appmetrica.yandex.com/) on both iOS and Android.<br/>
 This package forked from [RNAppMetrica](https://github.com/yandex/react-native-appmetrica) for modification to newer rn versions.
 
@@ -10,9 +10,9 @@ This package forked from [RNAppMetrica](https://github.com/yandex/react-native-a
 ---
 ## Installation
 
-1. `npm install @gennadysx/react-native-appmetrica --save`
+1. `npm install @jerkly/react-native-appmetrica --save`
 2. If React Native version <= 0.63.4: \
-  `react-native link @gennadysx/react-native-appmetrica`
+  `react-native link @jerkly/react-native-appmetrica`
 3. iOS only
   * if `${PROJECT_DIR}/ios/Podfile` exists: \
   `npx pod-install`
@@ -22,7 +22,7 @@ This package forked from [RNAppMetrica](https://github.com/yandex/react-native-a
 ## Usage
 
 ```js
-import AppMetrica from '@gennadysx/react-native-appmetrica';
+import AppMetrica from '@jerkly/react-native-appmetrica';
 
 // Starts the statistics collection process.
 AppMetrica.activate({
